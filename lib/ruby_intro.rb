@@ -47,7 +47,7 @@ class BookInStock
     end
     
     @isbn = isbn
-    @price = (price)
+    @price = Float(price)
     
   end
   
